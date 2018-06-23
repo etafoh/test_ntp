@@ -1,0 +1,19 @@
+{
+  "name": "test_ntp",
+  "version": "1.0.0",
+  "author": "Elvis Tafoh",
+  "summary": "Example module to manage NTP",
+  "license": "Apache-2.0",
+  "source": "https://github.com/etafoh/test_ntp.git",  
+  "project_page": "https://github.com/etafoh/test_ntp",
+  "tags": ["ntp"],
+  "dependencies": [
+    { "name":"puppetlabs/stdlib", "version_requirement": ">= 4.17.0 < 5.5.0" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "16.04" ]
+    }
+  ]
+}
